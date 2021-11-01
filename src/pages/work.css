@@ -1,0 +1,2349 @@
+@import url("https://use.typekit.net/ckg2vzi.css");
+
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box
+}
+
+ul {
+        list-style-position: outside
+}
+
+img {
+        width: 100%;
+        max-height: 100%;
+        border-radius: 1px
+}
+
+.link-icon {
+        width: auto;
+        height: 100%
+}
+
+body {
+        background: black;
+        color: white;
+        opacity: 87%;
+        margin: 0;
+        padding: 0
+}
+
+.container {
+        min-height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sofia-pro, sans-serif;
+        font-size: 18px
+}
+
+.navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+        height: 5rem;
+        background: black;
+        padding: 10px 5%
+}
+
+.navbar .logo {
+        letter-spacing: 2px;
+        text-decoration: none;
+        font-family: nunito-sans, sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        color: white
+}
+
+.navbar .container {
+        display: flex;
+        place-content: space-between
+}
+
+.navbar nav {
+        display: none
+}
+
+.navbar .mobile-menu {
+        cursor: pointer;
+        width: auto
+}
+
+nav.menu-btn {
+        display: block
+}
+
+nav {
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        right: 0;
+        top: 0;
+        background: black;
+        height: 100vh;
+        padding: 10px
+}
+
+nav ul.primary-nav {
+        margin-top: 5em
+}
+
+nav li a {
+        color: #888888;
+        letter-spacing: 2px;
+        text-decoration: none;
+        display: block;
+        padding: 24px;
+        font-family: nunito-sans, sans-serif;
+        font-size: 18px;
+        text-align: center
+}
+
+nav li a:hover {
+        font-weight: bold;
+        color: white
+}
+
+nav li.current a {
+        font-weight: bold;
+        color: white
+}
+
+.mobile-menu-exit {
+        float: right;
+        margin: 0 3%;
+        cursor: pointer;
+        width: auto
+}
+
+.case-study {
+        background-color: black;
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index: 1;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 200;
+        color: lightgray;
+        font-size: 18px;
+        margin-top: 7rem;
+        padding: 0 5%
+}
+
+.title {
+        font-family: nunito-sans, sans-serif;
+        margin-top: 2rem;
+        font-size: 30px;
+        font-weight: 600;
+        color: white
+}
+
+.thumbnail {
+        margin-top: 2rem
+}
+
+ul {
+        list-style-type: none
+}
+
+a {
+        text-decoration: none;
+        color: lightgray
+}
+
+.what-title {
+        color: white;
+        font-weight: 400;
+        font-size: 24px;
+        margin-top: 2rem;
+        margin-bottom: 1%
+}
+
+.timeline-title {
+        color: white;
+        font-weight: 400;
+        font-size: 24px;
+        margin-top: 2rem;
+        margin-bottom: 1%
+}
+
+.about-title {
+        color: white;
+        font-weight: 400;
+        font-size: 24px;
+        margin-top: 2rem;
+        margin-bottom: 1%
+}
+
+.challenges-title {
+        color: white;
+        font-weight: 400;
+        font-size: 24px;
+        margin-top: 2rem;
+        margin-bottom: 1%
+}
+
+#problems {
+        list-style-type: disc;
+        list-style-position: 0utside;
+        text-indent: 0;
+        padding-left: 1.25em
+}
+
+.discover-title {
+        color: white;
+        font-weight: 400;
+        font-size: 24px;
+        margin-top: 2rem;
+        margin-bottom: 1%
+}
+
+.owl-carousel .owl-stage {
+        margin-top: 4%;
+        display: flex;
+        align-items: center
+}
+
+.comp-title {
+        color: white;
+        font-weight: 400;
+        margin-top: 2rem;
+        font-size: 24px;
+        margin-bottom: 1%
+}
+
+.comp {
+        margin-top: 30px
+}
+
+.define-title {
+        color: white;
+        font-weight: 400;
+        margin-top: 2rem;
+        font-size: 24px;
+        margin-bottom: 1%
+}
+
+.personas-title {
+        margin-top: 2rem;
+        color: white;
+        font-weight: 400;
+        font-size: 24px
+}
+
+.owl-stage-outer {
+        margin: 0;
+        padding: 0
+}
+
+.mood-title {
+        color: white;
+        font-weight: 400;
+        margin-top: 2rem;
+        font-size: 24px;
+        margin-bottom: 1%
+}
+
+.mood-points {
+        list-style-type: disc;
+        list-style-position: 0utside;
+        text-indent: 0;
+        padding-left: 1.25em;
+        margin-top: 5%
+}
+
+.ideate-title {
+        color: white;
+        font-weight: 400;
+        margin-top: 2rem;
+        font-size: 24px;
+        margin-bottom: 1%
+}
+
+.solutions-title {
+        margin-top: 2rem;
+        font-weight: 400;
+        color: white;
+        font-size: 24px;
+        margin-bottom: 1%
+}
+
+.solutions {
+        list-style-type: disc;
+        list-style-position: 0utside;
+        text-indent: 0;
+        padding-left: 1.25em
+}
+
+.des {
+        margin-top: 4%
+}
+
+.design-title {
+        color: white;
+        font-weight: 400;
+        margin-top: 2rem;
+        font-size: 24px;
+        margin-bottom: 4%
+}
+
+.figma {
+        font-size: 20px;
+        text-decoration: underline;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 2rem
+}
+
+.button {
+        background-color: #d27146;
+        border: none;
+        border-radius: 5px;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px
+}
+
+.outcome-title {
+        color: white;
+        font-weight: 400;
+        font-size: 24px;
+        margin-top: 4%;
+        margin-bottom: 1%
+}
+
+.outcome {
+        margin-bottom: 3rem
+}
+
+.description {
+        width: 100%;
+        margin-bottom: 2%
+}
+
+#footer {
+        border-top: 1px solid #aaaaaa;
+        background: black;
+        position: relative;
+        z-index: 1;
+        margin: 0
+}
+
+#footer .footer {
+        margin: 0;
+        flex-direction: column;
+        padding: 10px 0 10px 0;
+        justify-content: flex-start
+}
+
+#footer h2 {
+        color: #aaaaaa;
+        font-weight: 100;
+        font-size: 12px;
+        font-family: nunito-sans, sans-serif;
+        letter-spacing: 0.1rem;
+        margin: 5px 0
+}
+
+#footer .socials {
+        display: flex;
+        margin: 5px 0
+}
+
+#footer .social-item {
+        height: 20px;
+        width: 20px;
+        margin: 0 5px
+}
+
+@media only screen and (min-width: 768px) {
+
+        .mobile-menu,
+        .mobile-menu-exit {
+                display: none
+        }
+
+        .navbar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 100;
+                height: 5rem;
+                background: black;
+                padding: 10px 5%
+        }
+
+        .navbar .logo {
+                letter-spacing: 2px;
+                text-decoration: none;
+                font-family: nunito-sans, sans-serif;
+                font-weight: 600;
+                font-size: 22px;
+                color: white
+        }
+
+        .navbar .container {
+                display: flex;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: none
+        }
+
+        .navbar .mobile-menu {
+                cursor: pointer
+        }
+
+        .navbar .container {
+                display: grid;
+                grid-template-columns: 180px auto;
+                justify-content: unset;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: flex;
+                justify-content: space-between;
+                background: none;
+                position: unset;
+                height: auto;
+                width: 100%;
+                padding: 0
+        }
+
+        .navbar nav ul {
+                list-style-type: none;
+                display: flex
+        }
+
+        .navbar nav a {
+                color: #888888;
+                font-size: 14px;
+                padding: 24px 0 24px 30px
+        }
+
+        .navbar nav ul.primary-nav {
+                margin: 0
+        }
+
+        .navbar nav li.current a {
+                font-weight: bold;
+                color: white
+        }
+
+        .case-study {
+                background-color: black;
+                background-size: cover;
+                background-position: top center;
+                position: relative;
+                z-index: 1;
+                font-family: sofia-pro, sans-serif;
+                font-weight: 200;
+                color: lightgray;
+                font-size: 22px;
+                margin-top: 7rem;
+                padding: 0 5%
+        }
+
+        .title {
+                font-family: nunito-sans, sans-serif;
+                margin-top: 2rem;
+                font-size: 34px;
+                font-weight: 600;
+                color: white
+        }
+
+        .thumbnail {
+                margin-top: 2rem
+        }
+
+        ul {
+                list-style-type: none
+        }
+
+        a {
+                text-decoration: none;
+                color: lightgray
+        }
+
+        .what-title {
+                color: white;
+                font-weight: 400;
+                font-size: 28px;
+                margin-top: 2rem
+        }
+
+        .timeline-title {
+                color: white;
+                font-weight: 400;
+                font-size: 28px;
+                margin-top: 2rem
+        }
+
+        .about-title {
+                color: white;
+                font-weight: 400;
+                font-size: 28px;
+                margin-top: 2rem
+        }
+
+        .challenges-title {
+                color: white;
+                font-weight: 400;
+                font-size: 28px;
+                margin-top: 2rem
+        }
+
+        #problems {
+                list-style-type: disc;
+                list-style-position: outside;
+                text-indent: 0;
+                padding-left: 1em
+        }
+
+        .discover-title {
+                color: white;
+                font-weight: 400;
+                font-size: 28px;
+                margin-top: 2rem
+        }
+
+        .owl-carousel .owl-stage {
+                margin-top: 2rem;
+                display: flex;
+                align-items: center
+        }
+
+        .comp-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 28px
+        }
+
+        .comp {
+                margin-top: 30px
+        }
+
+        .define-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 28px
+        }
+
+        .personas-title {
+                margin-top: 2rem;
+                color: white;
+                font-weight: 400;
+                font-size: 28px
+        }
+
+        .owl-stage-outer {
+                margin: 0;
+                padding: 0
+        }
+
+        .mood-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 28px
+        }
+
+        .mood-points {
+                list-style-type: disc;
+                list-style-position: outside;
+                text-indent: 0;
+                padding-left: 1em
+        }
+
+        .ideate-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 28px
+        }
+
+        .solutions-title {
+                margin-top: 2rem;
+                font-weight: 400;
+                color: white;
+                font-size: 28px
+        }
+
+        .solutions {
+                list-style-type: disc;
+                list-style-position: outside;
+                text-indent: 0;
+                padding-left: 1em
+        }
+
+        .des {
+                margin-bottom: 2rem
+        }
+
+        .design-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 28px
+        }
+
+        .wireframes-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 1rem;
+                font-size: 28px
+        }
+
+        .wireframes {
+                margin-bottom: 2rem
+        }
+
+        .prototype-title {
+                margin-top: 30px;
+                font-size: 28px;
+                color: white;
+                font-weight: 400
+        }
+
+        .figma {
+                font-size: 24px;
+                text-decoration: underline;
+                font-weight: 400;
+                text-align: center;
+                margin-bottom: 2rem
+        }
+
+        .button {
+                background-color: #d27146;
+                border: none;
+                border-radius: 5px;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px
+        }
+
+        .outcome-title {
+                color: white;
+                font-weight: 400;
+                font-size: 28px
+        }
+
+        .outcome {
+                margin-bottom: 3rem
+        }
+
+        .description {
+                width: 100%
+        }
+
+        #footer {
+                background: black;
+                position: relative;
+                z-index: 1;
+                margin: 0 5%
+        }
+
+        #footer .container {
+                display: inline-block;
+                width: 100%
+        }
+
+        #footer .footer {
+                margin: 10px 0;
+                place-content: space-between
+        }
+
+        #footer h2 {
+                color: #aaaaaa;
+                font-weight: 100;
+                font-size: 12px;
+                font-family: nunito-sans, sans-serif;
+                letter-spacing: .1rem;
+                margin: 10px 0
+        }
+
+        #footer .socials {
+                margin: 10px 0
+        }
+
+        #footer .social-item {
+                height: 20px;
+                width: 20px;
+                margin: 0 0 0 20px
+        }
+
+        #footer .abhi {
+                float: left
+        }
+
+        #footer .socials {
+                float: right
+        }
+}
+
+@media only screen and (min-width: 1024px) {
+        body {
+                background: black;
+                color: white;
+                margin: 0;
+                padding: 0
+        }
+
+        .container {
+                padding-right: 0
+        }
+
+        .navbar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 10;
+                height: 5rem;
+                background: black;
+                padding: 10px 5%
+        }
+
+        .navbar .logo {
+                letter-spacing: 2px;
+                text-decoration: none;
+                font-family: nunito-sans, sans-serif;
+                font-weight: 600;
+                font-size: 24px;
+                color: white
+        }
+
+        .navbar .container {
+                display: flex;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: none
+        }
+
+        .navbar .mobile-menu {
+                cursor: pointer
+        }
+
+        .navbar .container {
+                display: grid;
+                grid-template-columns: 180px auto;
+                justify-content: unset;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: flex;
+                justify-content: space-between;
+                background: none;
+                position: unset;
+                height: auto;
+                width: 100%;
+                padding: 0
+        }
+
+        .navbar nav ul {
+                list-style-type: none;
+                display: flex
+        }
+
+        .navbar nav a {
+                color: #888888;
+                font-size: 16px;
+                padding: 24px 0 24px 30px
+        }
+
+        .navbar nav ul.primary-nav {
+                margin: 0
+        }
+
+        .navbar nav li.current a {
+                font-weight: bold;
+                color: white
+        }
+
+        .case-study {
+                background-color: black;
+                background-size: cover;
+                background-position: top center;
+                position: relative;
+                z-index: 1;
+                font-family: sofia-pro, sans-serif;
+                font-weight: 200;
+                color: lightgray;
+                font-size: 26px;
+                margin-top: 7.4rem;
+                padding: 0 5%
+        }
+
+        .title {
+                font-family: nunito-sans, sans-serif;
+                margin-top: 3rem;
+                font-size: 38px;
+                font-weight: 600;
+                color: white
+        }
+
+        .thumbnail {
+                margin-top: 3rem
+        }
+
+        ul {
+                list-style-type: none
+        }
+
+        a {
+                text-decoration: none;
+                color: lightgray
+        }
+
+        .what-title {
+                color: white;
+                font-weight: 400;
+                font-size: 32px;
+                margin-top: 3rem
+        }
+
+        .timeline-title {
+                color: white;
+                font-weight: 400;
+                font-size: 32px;
+                margin-top: 3rem
+        }
+
+        .about-title {
+                color: white;
+                font-weight: 400;
+                font-size: 32px;
+                margin-top: 3rem
+        }
+
+        .challenges-title {
+                color: white;
+                font-weight: 400;
+                font-size: 32px;
+                margin-top: 3rem
+        }
+
+        .discover-title {
+                color: white;
+                font-weight: 400;
+                font-size: 32px;
+                margin-top: 4rem
+        }
+
+        .owl-carousel .owl-stage {
+                margin-top: 3rem;
+                display: flex;
+                align-items: center
+        }
+
+        .comp-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 3rem;
+                font-size: 32px
+        }
+
+        .comp {
+                margin-top: 30px
+        }
+
+        .define-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 4rem;
+                font-size: 32px
+        }
+
+        .personas-title {
+                margin-top: 2rem;
+                color: white;
+                font-weight: 400;
+                font-size: 32px
+        }
+
+        .owl-stage-outer {
+                margin: 0;
+                padding: 0
+        }
+
+        .mood-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 32px
+        }
+
+        .ideate-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 4rem;
+                font-size: 32px
+        }
+
+        .solutions-title {
+                margin-top: 2rem;
+                font-weight: 400;
+                color: white;
+                font-size: 32px
+        }
+
+        .des {
+                margin-bottom: 2rem
+        }
+
+        .design-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 4rem;
+                font-size: 32px
+        }
+
+        .wireframes-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 1rem;
+                font-size: 32px
+        }
+
+        .wireframes {
+                margin-bottom: 2rem
+        }
+
+        .prototype-title {
+                margin-top: 3rem;
+                font-size: 32px;
+                color: white;
+                font-weight: 400
+        }
+
+        .figma {
+                font-size: 28px;
+                text-decoration: underline;
+                font-weight: 400;
+                text-align: center;
+                margin-bottom: 4rem
+        }
+
+        .button {
+                background-color: #d27146;
+                border: none;
+                border-radius: 5px;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 24px
+        }
+
+        .outcome-title {
+                color: white;
+                font-weight: 400;
+                font-size: 32px
+        }
+
+        .outcome {
+                margin-bottom: 4rem
+        }
+
+        .description {
+                width: 100%
+        }
+
+        #footer h2 {
+                color: #aaaaaa;
+                font-weight: 100;
+                font-size: 12px
+        }
+
+        #footer .social-item {
+                height: 20px;
+                width: 20px;
+                margin: 0 0 0 20px
+        }
+}
+
+@media only screen and (min-width: 1200px) {
+        body {
+                background: black;
+                color: white;
+                margin: 0;
+                padding: 0
+        }
+
+        .container {
+                padding-right: 0
+        }
+
+        .navbar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 10;
+                height: 6rem;
+                background: black;
+                padding: 10px 5%
+        }
+
+        .navbar .logo {
+                letter-spacing: 2px;
+                text-decoration: none;
+                font-family: nunito-sans, sans-serif;
+                font-weight: 600;
+                font-size: 28px;
+                color: white
+        }
+
+        .navbar .container {
+                display: flex;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: none
+        }
+
+        .navbar .mobile-menu {
+                cursor: pointer
+        }
+
+        .navbar .container {
+                display: grid;
+                grid-template-columns: 180px auto;
+                justify-content: unset;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: flex;
+                justify-content: space-between;
+                background: none;
+                position: unset;
+                height: auto;
+                width: 100%;
+                padding: 0
+        }
+
+        .navbar nav ul {
+                list-style-type: none;
+                display: flex
+        }
+
+        .navbar nav a {
+                color: #888888;
+                font-size: 20px;
+                padding: 24px 0 24px 30px
+        }
+
+        .navbar nav ul.primary-nav {
+                margin: 0
+        }
+
+        .navbar nav li.current a {
+                font-weight: bold;
+                color: white
+        }
+
+        .case-study {
+                background-color: black;
+                background-size: cover;
+                background-position: top center;
+                position: relative;
+                z-index: 1;
+                font-family: sofia-pro, sans-serif;
+                font-weight: 200;
+                color: lightgray;
+                font-size: 28px;
+                margin-top: 7.4rem;
+                padding: 0 5%
+        }
+
+        .title {
+                font-family: nunito-sans, sans-serif;
+                margin-top: 2rem;
+                font-size: 40px;
+                font-weight: 600;
+                color: white
+        }
+
+        .thumbnail {
+                margin-top: 2rem
+        }
+
+        ul {
+                list-style-type: none
+        }
+
+        a {
+                text-decoration: none;
+                color: lightgray
+        }
+
+        .what-title {
+                color: white;
+                font-weight: 400;
+                font-size: 34px;
+                margin-top: 2rem
+        }
+
+        .timeline-title {
+                color: white;
+                font-weight: 400;
+                font-size: 34px;
+                margin-top: 2rem
+        }
+
+        .about-title {
+                color: white;
+                font-weight: 400;
+                font-size: 34px;
+                margin-top: 2rem
+        }
+
+        .challenges-title {
+                color: white;
+                font-weight: 400;
+                font-size: 34px;
+                margin-top: 2rem
+        }
+
+        .discover-title {
+                color: white;
+                font-weight: 400;
+                font-size: 34px;
+                margin-top: 2rem
+        }
+
+        .owl-carousel .owl-stage {
+                margin-top: 2rem;
+                display: flex;
+                align-items: center
+        }
+
+        .comp-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 34px
+        }
+
+        .comp {
+                margin-top: 30px
+        }
+
+        .define-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 34px
+        }
+
+        .personas-title {
+                margin-top: 2rem;
+                color: white;
+                font-weight: 400;
+                font-size: 34px
+        }
+
+        .owl-stage-outer {
+                margin: 0;
+                padding: 0
+        }
+
+        .mood-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 34px
+        }
+
+        .ideate-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 34px
+        }
+
+        .solutions-title {
+                margin-top: 2rem;
+                font-weight: 400;
+                color: white;
+                font-size: 34px
+        }
+
+        .des {
+                margin-bottom: 2rem
+        }
+
+        .design-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 34px
+        }
+
+        .wireframes-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 1rem;
+                font-size: 34px
+        }
+
+        .wireframes {
+                margin-bottom: 2rem
+        }
+
+        .prototype-title {
+                margin-top: 30px;
+                font-size: 34px;
+                color: white;
+                font-weight: 400
+        }
+
+        .figma {
+                font-size: 30px;
+                text-decoration: underline;
+                font-weight: 400;
+                text-align: center;
+                margin-bottom: 2rem
+        }
+
+        .button {
+                background-color: #d27146;
+                border: none;
+                border-radius: 5px;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 26px
+        }
+
+        .outcome-title {
+                color: white;
+                font-weight: 400;
+                font-size: 34px
+        }
+
+        .outcome {
+                margin-bottom: 3rem
+        }
+
+        .description {
+                width: 100%
+        }
+
+        #footer .footer {
+                margin: 20px 0;
+                place-content: space-between
+        }
+
+        #footer h2 {
+                color: #aaaaaa;
+                font-weight: 100;
+                font-size: 18px
+        }
+
+        #footer .social-item {
+                height: 30px;
+                width: 30px;
+                margin: 0 0 0 30px
+        }
+}
+
+@media only screen and (min-width: 1550px) {
+        body {
+                background: black;
+                color: white;
+                margin: 0;
+                padding: 0
+        }
+
+        .container {
+                padding-right: 0
+        }
+
+        .navbar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 10;
+                height: 6rem;
+                background: black;
+                padding: 10px 5%
+        }
+
+        .navbar .logo {
+                letter-spacing: 2px;
+                text-decoration: none;
+                font-family: nunito-sans, sans-serif;
+                font-weight: 600;
+                font-size: 28px;
+                color: white
+        }
+
+        .navbar .container {
+                display: flex;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: none
+        }
+
+        .navbar .mobile-menu {
+                cursor: pointer
+        }
+
+        .navbar .container {
+                display: grid;
+                grid-template-columns: 180px auto;
+                justify-content: unset;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: flex;
+                justify-content: space-between;
+                background: none;
+                position: unset;
+                height: auto;
+                width: 100%;
+                padding: 0
+        }
+
+        .navbar nav ul {
+                list-style-type: none;
+                display: flex
+        }
+
+        .navbar nav a {
+                color: #888888;
+                font-size: 20px;
+                padding: 24px 0 24px 30px
+        }
+
+        .navbar nav ul.primary-nav {
+                margin: 0
+        }
+
+        .navbar nav li.current a {
+                font-weight: bold;
+                color: white
+        }
+
+        .case-study {
+                background-color: black;
+                background-size: cover;
+                background-position: top center;
+                position: relative;
+                z-index: 1;
+                font-family: sofia-pro, sans-serif;
+                font-weight: 200;
+                color: lightgray;
+                font-size: 32px;
+                margin-top: 9rem;
+                padding: 0 5%
+        }
+
+        .title {
+                font-family: nunito-sans, sans-serif;
+                margin-top: 2rem;
+                font-size: 44px;
+                font-weight: 600;
+                color: white
+        }
+
+        .thumbnail {
+                margin-top: 4rem
+        }
+
+        ul {
+                list-style-type: none
+        }
+
+        a {
+                text-decoration: none;
+                color: lightgray
+        }
+
+        .what-title {
+                color: white;
+                font-weight: 400;
+                font-size: 38px;
+                margin-top: 2rem
+        }
+
+        .timeline-title {
+                color: white;
+                font-weight: 400;
+                font-size: 38px;
+                margin-top: 2rem
+        }
+
+        .about-title {
+                color: white;
+                font-weight: 400;
+                font-size: 38px;
+                margin-top: 2rem
+        }
+
+        .challenges-title {
+                color: white;
+                font-weight: 400;
+                font-size: 38px;
+                margin-top: 2rem
+        }
+
+        .discover-title {
+                color: white;
+                font-weight: 400;
+                font-size: 38px;
+                margin-top: 2rem
+        }
+
+        .owl-carousel .owl-stage {
+                margin-top: 2rem;
+                display: flex;
+                align-items: center
+        }
+
+        .comp-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 38px
+        }
+
+        .comp {
+                margin-top: 30px
+        }
+
+        .define-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 38px
+        }
+
+        .personas-title {
+                margin-top: 2rem;
+                color: white;
+                font-weight: 400;
+                font-size: 38px
+        }
+
+        .owl-stage-outer {
+                margin: 0;
+                padding: 0
+        }
+
+        .mood-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 38px
+        }
+
+        .ideate-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 38px
+        }
+
+        .solutions-title {
+                margin-top: 2rem;
+                font-weight: 400;
+                color: white;
+                font-size: 38px
+        }
+
+        .des {
+                margin-bottom: 2rem
+        }
+
+        .design-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 38px
+        }
+
+        .wireframes-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 1rem;
+                font-size: 38px
+        }
+
+        .wireframes {
+                margin-bottom: 2rem
+        }
+
+        .prototype-title {
+                margin-top: 30px;
+                font-size: 38px;
+                color: white;
+                font-weight: 400
+        }
+
+        .figma {
+                font-size: 34px;
+                text-decoration: underline;
+                font-weight: 400;
+                text-align: center;
+                margin-bottom: 2rem
+        }
+
+        .button {
+                background-color: #d27146;
+                border: none;
+                border-radius: 5px;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 30px
+        }
+
+        .outcome-title {
+                color: white;
+                font-weight: 400;
+                font-size: 38px
+        }
+
+        .outcome {
+                margin-bottom: 3rem
+        }
+
+        .description {
+                width: 100%
+        }
+}
+
+@media only screen and (min-width: 1600px) {
+        body {
+                background: black;
+                color: white;
+                margin: 0;
+                padding: 0
+        }
+
+        .container {
+                padding-right: 0
+        }
+
+        .navbar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 10;
+                height: 6rem;
+                background: black;
+                padding: 10px 5%
+        }
+
+        .navbar .logo {
+                letter-spacing: 2px;
+                text-decoration: none;
+                font-family: nunito-sans, sans-serif;
+                font-weight: 600;
+                font-size: 34px;
+                color: white
+        }
+
+        .navbar .container {
+                display: flex;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: none
+        }
+
+        .navbar .mobile-menu {
+                cursor: pointer
+        }
+
+        .navbar .container {
+                display: grid;
+                grid-template-columns: 180px auto;
+                justify-content: unset;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: flex;
+                justify-content: space-between;
+                background: none;
+                position: unset;
+                height: auto;
+                width: 100%;
+                padding: 0
+        }
+
+        .navbar nav ul {
+                list-style-type: none;
+                display: flex
+        }
+
+        .navbar nav a {
+                color: #888888;
+                font-size: 24px;
+                padding: 24px 0 24px 30px
+        }
+
+        .navbar nav ul.primary-nav {
+                margin: 0
+        }
+
+        .navbar nav li.current a {
+                font-weight: bold;
+                color: white
+        }
+
+        .case-study {
+                background-color: black;
+                background-size: cover;
+                background-position: top center;
+                position: relative;
+                z-index: 1;
+                font-family: sofia-pro, sans-serif;
+                font-weight: 200;
+                color: lightgray;
+                font-size: 34px;
+                margin-top: 10rem;
+                padding: 0 5%
+        }
+
+        .title {
+                font-family: nunito-sans, sans-serif;
+                margin-top: 5rem;
+                font-size: 46px;
+                font-weight: 600;
+                color: white
+        }
+
+        .thumbnail {
+                margin-top: 4rem
+        }
+
+        ul {
+                list-style-type: none
+        }
+
+        a {
+                text-decoration: none;
+                color: lightgray
+        }
+
+        .what-title {
+                color: white;
+                font-weight: 400;
+                font-size: 40px;
+                margin-top: 4rem
+        }
+
+        .timeline-title {
+                color: white;
+                font-weight: 400;
+                font-size: 40px;
+                margin-top: 4rem
+        }
+
+        .about-title {
+                color: white;
+                font-weight: 400;
+                font-size: 40px;
+                margin-top: 4rem
+        }
+
+        .challenges-title {
+                color: white;
+                font-weight: 400;
+                font-size: 40px;
+                margin-top: 4rem
+        }
+
+        .discover-title {
+                color: white;
+                font-weight: 400;
+                font-size: 40px;
+                margin-top: 5rem
+        }
+
+        .owl-carousel .owl-stage {
+                margin-top: 2rem;
+                display: flex;
+                align-items: center
+        }
+
+        .comp-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 4rem;
+                font-size: 40px
+        }
+
+        .comp {
+                margin-top: 3rem
+        }
+
+        .define-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 5rem;
+                font-size: 40px
+        }
+
+        .personas-title {
+                margin-top: 3rem;
+                color: white;
+                font-weight: 400;
+                font-size: 40px
+        }
+
+        .owl-stage-outer {
+                margin: 0;
+                padding: 0
+        }
+
+        .mood-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 4rem;
+                font-size: 40px
+        }
+
+        .ideate-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 5rem;
+                font-size: 40px
+        }
+
+        .solutions-title {
+                margin-top: 4rem;
+                font-weight: 400;
+                color: white;
+                font-size: 40px
+        }
+
+        .des {
+                margin-bottom: 2rem
+        }
+
+        .design-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 5rem;
+                font-size: 40px
+        }
+
+        .wireframes-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 40px
+        }
+
+        .wireframes {
+                margin-bottom: 3rem
+        }
+
+        .prototype-title {
+                margin-top: 4rem;
+                font-size: 40px;
+                color: white;
+                font-weight: 400
+        }
+
+        .figma {
+                font-size: 36px;
+                text-decoration: underline;
+                font-weight: 400;
+                text-align: center;
+                margin-bottom: 4rem
+        }
+
+        .button {
+                background-color: #d27146;
+                border: none;
+                border-radius: 5px;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 32px
+        }
+
+        .outcome-title {
+                color: white;
+                font-weight: 400;
+                font-size: 40px
+        }
+
+        .outcome {
+                margin-bottom: 5rem
+        }
+
+        .description {
+                width: 100%
+        }
+
+        #footer {
+                background: black;
+                position: relative;
+                z-index: 1;
+                margin: 0 5%
+        }
+
+        #footer .footer {
+                margin: 20px 0;
+                place-content: space-between
+        }
+
+        #footer h2 {
+                color: #aaaaaa;
+                font-weight: 100;
+                font-size: 20px
+        }
+
+        #footer .social-item {
+                height: 30px;
+                width: 30px;
+                margin: 0 0 0 30px
+        }
+}
+
+@media only screen and (min-width: 1900px) {
+        body {
+                background: black;
+                color: white;
+                margin: 0;
+                padding: 0
+        }
+
+        .container {
+                padding-right: 0
+        }
+
+        .navbar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 10;
+                height: 6rem;
+                background: black;
+                padding: 10px 5%
+        }
+
+        .navbar .logo {
+                letter-spacing: 2px;
+                text-decoration: none;
+                font-family: nunito-sans, sans-serif;
+                font-weight: 600;
+                font-size: 36px;
+                color: white
+        }
+
+        .navbar .container {
+                display: flex;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: none
+        }
+
+        .navbar .mobile-menu {
+                cursor: pointer
+        }
+
+        .navbar .container {
+                display: grid;
+                grid-template-columns: 180px auto;
+                justify-content: unset;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: flex;
+                justify-content: space-between;
+                background: none;
+                position: unset;
+                height: auto;
+                width: 100%;
+                padding: 0
+        }
+
+        .navbar nav ul {
+                list-style-type: none;
+                display: flex
+        }
+
+        .navbar nav a {
+                color: #888888;
+                font-size: 26px;
+                padding: 24px 0 24px 30px
+        }
+
+        .navbar nav ul.primary-nav {
+                margin: 0
+        }
+
+        .navbar nav li.current a {
+                font-weight: bold;
+                color: white
+        }
+
+        .case-study {
+                background-color: black;
+                background-size: cover;
+                background-position: top center;
+                position: relative;
+                z-index: 1;
+                font-family: sofia-pro, sans-serif;
+                font-weight: 200;
+                color: lightgray;
+                font-size: 38px;
+                margin-top: 10rem;
+                padding: 0 5%
+        }
+
+        .title {
+                font-family: nunito-sans, sans-serif;
+                margin-top: 2rem;
+                font-size: 50px;
+                font-weight: 600;
+                color: white
+        }
+
+        .thumbnail {
+                margin-top: 4rem
+        }
+
+        ul {
+                list-style-type: none
+        }
+
+        a {
+                text-decoration: none;
+                color: lightgray
+        }
+
+        .what-title {
+                color: white;
+                font-weight: 400;
+                font-size: 44px;
+                margin-top: 4rem
+        }
+
+        .timeline-title {
+                color: white;
+                font-weight: 400;
+                font-size: 44px;
+                margin-top: 4rem
+        }
+
+        .about-title {
+                color: white;
+                font-weight: 400;
+                font-size: 44px;
+                margin-top: 4rem
+        }
+
+        .challenges-title {
+                color: white;
+                font-weight: 400;
+                font-size: 44px;
+                margin-top: 4rem
+        }
+
+        .discover-title {
+                color: white;
+                font-weight: 400;
+                font-size: 44px;
+                margin-top: 5rem
+        }
+
+        .owl-carousel .owl-stage {
+                margin-top: 3rem;
+                display: flex;
+                align-items: center
+        }
+
+        .comp-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 4rem;
+                font-size: 44px
+        }
+
+        .comp {
+                margin-top: 3rem
+        }
+
+        .define-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 5rem;
+                font-size: 44px
+        }
+
+        .personas-title {
+                margin-top: 2rem;
+                color: white;
+                font-weight: 400;
+                font-size: 44px
+        }
+
+        .owl-stage-outer {
+                margin: 0;
+                padding: 0
+        }
+
+        .mood-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 4rem;
+                font-size: 44px
+        }
+
+        .ideate-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 5rem;
+                font-size: 44px
+        }
+
+        .solutions-title {
+                margin-top: 2rem;
+                font-weight: 400;
+                color: white;
+                font-size: 44px
+        }
+
+        .des {
+                margin-bottom: 4rem
+        }
+
+        .design-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 5rem;
+                font-size: 44px
+        }
+
+        .wireframes-title {
+                color: white;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 44px
+        }
+
+        .wireframes {
+                margin-bottom: 3rem
+        }
+
+        .prototype-title {
+                margin-top: 4rem;
+                font-size: 44px;
+                color: white;
+                font-weight: 400
+        }
+
+        .figma {
+                font-size: 36px;
+                text-decoration: underline;
+                font-weight: 400;
+                text-align: center;
+                margin-bottom: 4rem
+        }
+
+        .button {
+                background-color: #d27146;
+                border: none;
+                border-radius: 5px;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 36px
+        }
+
+        .outcome-title {
+                margin-top: 5rem;
+                color: white;
+                font-weight: 400;
+                font-size: 44px
+        }
+
+        .outcome {
+                margin-bottom: 5rem
+        }
+
+        .description {
+                width: 100%
+        }
+
+        #footer {
+                background: black;
+                position: relative;
+                z-index: 1;
+                margin: 0 5%
+        }
+
+        #footer .footer {
+                margin: 20px 0;
+                place-content: space-between
+        }
+
+        #footer h2 {
+                color: #aaaaaa;
+                font-weight: 100;
+                font-size: 22px
+        }
+
+        #footer .social-item {
+                height: 32px;
+                width: 32px;
+                margin: 0 0 0 32px
+        }
+}
+
+@media only screen and (min-width: 2000px) {
+        body {
+                background: black;
+                color: white;
+                margin: 0;
+                padding: 0
+        }
+
+        .container {
+                padding-right: 0
+        }
+
+        .navbar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 10;
+                height: 9rem;
+                background: black;
+                padding: 30px 19%
+        }
+
+        .navbar .logo {
+                letter-spacing: 2px;
+                text-decoration: none;
+                font-family: nunito-sans, sans-serif;
+                font-weight: 600;
+                font-size: 40px;
+                color: white
+        }
+
+        .navbar .container {
+                display: flex;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: none
+        }
+
+        .navbar .mobile-menu {
+                cursor: pointer
+        }
+
+        .navbar .container {
+                display: grid;
+                grid-template-columns: 180px auto;
+                justify-content: unset;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: flex;
+                justify-content: space-between;
+                background: none;
+                position: unset;
+                height: auto;
+                width: 100%;
+                padding: 0
+        }
+
+        .navbar nav ul {
+                list-style-type: none;
+                display: flex
+        }
+
+        .navbar nav a {
+                color: #888888;
+                font-size: 26px;
+                padding: 24px 0 24px 30px
+        }
+
+        .navbar nav ul.primary-nav {
+                margin: 0
+        }
+
+        .navbar nav li.current a {
+                font-weight: bold;
+                color: white
+        }
+
+        .case-study {
+                padding: 0 19%
+        }
+
+        #footer {
+                background: black;
+                position: relative;
+                z-index: 1;
+                margin: 0 19%
+        }
+
+        #footer .footer {
+                margin: 20px 0;
+                place-content: space-between
+        }
+
+        #footer h2 {
+                color: #aaaaaa;
+                font-weight: 100;
+                font-size: 24px
+        }
+
+        #footer .social-item {
+                height: 34px;
+                width: 34px;
+                margin: 0 0 0 34px
+        }
+}
+
+@media only screen and (min-width: 2560px) {
+        body {
+                background: black;
+                color: white;
+                margin: 0;
+                padding: 0
+        }
+
+        .container {
+                padding-right: 0
+        }
+
+        .navbar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 10;
+                height: 9rem;
+                background: black;
+                padding: 30px 19%
+        }
+
+        .navbar .logo {
+                letter-spacing: 2px;
+                text-decoration: none;
+                font-family: nunito-sans, sans-serif;
+                font-weight: 600;
+                font-size: 42px;
+                color: white
+        }
+
+        .navbar .container {
+                display: flex;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: none
+        }
+
+        .navbar .mobile-menu {
+                cursor: pointer
+        }
+
+        .navbar .container {
+                display: grid;
+                grid-template-columns: 180px auto;
+                justify-content: unset;
+                place-content: space-between
+        }
+
+        .navbar nav {
+                display: flex;
+                justify-content: space-between;
+                background: none;
+                position: unset;
+                height: auto;
+                width: 100%;
+                padding: 0
+        }
+
+        .navbar nav ul {
+                list-style-type: none;
+                display: flex
+        }
+
+        .navbar nav a {
+                color: #888888;
+                font-size: 28px;
+                padding: 24px 0 24px 30px
+        }
+
+        .navbar nav ul.primary-nav {
+                margin: 0
+        }
+
+        .navbar nav li.current a {
+                font-weight: bold;
+                color: white
+        }
+
+        .case-study {
+                margin-left: 19%;
+                margin-right: 19%
+        }
+
+        #footer {
+                background: black;
+                position: relative;
+                z-index: 1;
+                margin: 0 19%
+        }
+
+        #footer .footer {
+                margin: 20px 0;
+                place-content: space-between
+        }
+
+        #footer h2 {
+                color: #aaaaaa;
+                font-weight: 100;
+                font-size: 26px
+        }
+
+        #footer .social-item {
+                height: 36px;
+                width: 36px;
+                margin: 0 0 0 36px
+        }
+}
+
+/*# sourceMappingURL=goodreads.min.css.map */
